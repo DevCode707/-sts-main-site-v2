@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "./tokens";
+@import "./animations";
+@import "./effects";
+@import "./states";
+
+@source "../**/*.{ts,tsx}";
+
+body {
+  margin: 0;
+}

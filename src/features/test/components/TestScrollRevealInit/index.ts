@@ -1,0 +1,1 @@
+export { TestScrollRevealInit } from "./TestScrollRevealInit";

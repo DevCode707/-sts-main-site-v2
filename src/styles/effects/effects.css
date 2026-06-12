@@ -1,0 +1,99 @@
+@layer utilities {
+  .bg-diamond-gradient {
+    background: radial-gradient(
+      122.37% 170.75% at 1% 100%,
+      var(--color-gradient-blue-start) 0%,
+      var(--color-gradient-blue-end) 100%
+    );
+  }
+
+  .border-gradient {
+    border: 1px solid transparent;
+    background:
+      linear-gradient(white, white) padding-box,
+      var(--border-gradient) border-box;
+  }
+
+  .test-hero-showcase-fade::before,
+  .test-hero-showcase-fade::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 40px;
+    pointer-events: none;
+  }
+
+  .test-hero-showcase-fade::before {
+    top: 0;
+    background: linear-gradient(
+      180deg,
+      #fff 0%,
+      rgb(255 255 255 / 0.35) 55%,
+      transparent 100%
+    );
+  }
+
+  .test-hero-showcase-fade::after {
+    bottom: 0;
+    background: linear-gradient(
+      0deg,
+      #fff 0%,
+      rgb(255 255 255 / 0.35) 55%,
+      transparent 100%
+    );
+  }
+
+  @media (max-width: 767px) {
+    .test-hero-showcase-fade::before,
+    .test-hero-showcase-fade::after {
+      height: 56px;
+    }
+  }
+
+  .expertise-partners-scroll {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .expertise-partners-scroll::-webkit-scrollbar {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  .expertise-glass-card {
+    position: relative;
+    isolation: isolate;
+    border-radius: 16px;
+    background-color: rgb(0 0 0 / 0.08);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+  }
+
+  .expertise-glass-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      38.44deg,
+      rgba(42, 136, 241, 0.3) 16.75%,
+      #ffffff 44.94%,
+      rgba(216, 229, 244, 0.12) 72.92%,
+      rgba(0, 115, 243, 0.1) 98.2%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}

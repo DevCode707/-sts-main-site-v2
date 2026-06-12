@@ -1,0 +1,1 @@
+export { TestAmbientDecor } from "./TestAmbientDecor";

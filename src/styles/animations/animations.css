@@ -1,0 +1,175 @@
+@layer utilities {
+  @keyframes test-anim-fade-up {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 24px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-anim-fade-down {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -14px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-anim-fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes test-anim-slide-left {
+    from {
+      opacity: 0;
+      transform: translate3d(28px, 0, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-anim-slide-right {
+    from {
+      opacity: 0;
+      transform: translate3d(-28px, 0, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-anim-scale-up {
+    from {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-hero-up {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 22px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-hero-slide-left {
+    from {
+      opacity: 0;
+      transform: translate3d(36px, 0, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes test-ambient-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .test-reveal-immediate {
+    opacity: 0;
+    animation-duration: var(--test-reveal-duration, 700ms);
+    animation-delay: var(--test-reveal-delay, 0ms);
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+    animation-fill-mode: forwards;
+  }
+
+  .test-reveal-immediate.test-reveal-fade-up {
+    animation-name: test-anim-fade-up;
+  }
+
+  .test-reveal-immediate.test-reveal-fade-down {
+    animation-name: test-anim-fade-down;
+  }
+
+  .test-reveal-immediate.test-reveal-fade-in {
+    animation-name: test-anim-fade-in;
+  }
+
+  .test-reveal-immediate.test-reveal-slide-left {
+    animation-name: test-anim-slide-left;
+  }
+
+  .test-reveal-immediate.test-reveal-slide-right {
+    animation-name: test-anim-slide-right;
+  }
+
+  .test-reveal-immediate.test-reveal-scale-up {
+    animation-name: test-anim-scale-up;
+  }
+
+  [data-test-reveal].test-reveal:not(.test-reveal-done):not(
+      .test-reveal-animating
+    ) {
+    opacity: 0;
+  }
+
+  .test-reveal-done {
+    opacity: 1;
+    transform: none;
+  }
+
+  .test-hero-enter {
+    opacity: 0;
+    animation: test-hero-up var(--test-enter-duration, 700ms)
+      var(--test-enter-delay, 0ms) cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .test-hero-enter-slide {
+    animation-name: test-hero-slide-left;
+  }
+
+  .test-ambient-layer {
+    opacity: 0;
+    animation: test-ambient-in 1s ease forwards;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .test-reveal,
+    .test-reveal-immediate,
+    .test-hero-enter,
+    .test-ambient-layer {
+      opacity: 1 !important;
+      transform: none !important;
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
