@@ -1,0 +1,930 @@
+[
+  {
+    "name": "breadcrumb_item",
+    "display_name": "Breadcrumb Item",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.242Z",
+    "updated_at": "2026-06-03T11:25:44.242Z",
+    "id": 183485826019795,
+    "schema": {
+      "label": {
+        "type": "text",
+        "pos": 0,
+        "id": "3-B3xLb2Qfy0Mx7dFavoqg"
+      },
+      "href": {
+        "type": "text",
+        "pos": 1,
+        "id": "tE36Zu7YRwqplYvP2dqEhw"
+      },
+      "is_current": {
+        "type": "boolean",
+        "pos": 2,
+        "id": "1Rq0GfOEQBKtvT3pogZ9Gg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Breadcrumb Item",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "business_solutions_section",
+    "display_name": "Business Solutions Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.327Z",
+    "updated_at": "2026-06-03T11:25:44.327Z",
+    "id": 183485826372057,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "YNPPjuiSREKlCFqDGXVyNw"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "kVNxBfHwT7inE-2vjiGFCg"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "IvyFyfb1SpCgbN2nc2eKAA"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "WwGs7GLLRm2dS-D4F5J25g"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "NikmnapvSI6zbnESFJ61gA"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Business Solutions Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "case_studies_section",
+    "display_name": "Case Studies Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.302Z",
+    "updated_at": "2026-06-03T11:25:44.302Z",
+    "id": 183485826265558,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "C9CxzsKGRIiDiwxFA319IA"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "gJmYxUGRQl6lkhsaQj-QCw"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "xPJbXDq7Tdex0t0aF-mFrg"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "p5vAuqK-StOaPs4BGMNgKg"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "YxbQAi2OSdWAgw1yRSmSpg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Case Studies Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "ecommerce_service_page",
+    "display_name": "Ecommerce Service Page",
+    "description": "Landing page shell for Ecommerce Development Services",
+    "created_at": "2026-06-03T11:25:44.513Z",
+    "updated_at": "2026-06-03T11:25:44.513Z",
+    "id": 183485827133918,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "_FZ1_Dy5RKGHGnRKmb1ehA"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 1,
+        "id": "fwvEhg4rSjif4bIG4l8o2w"
+      },
+      "seo_title": {
+        "type": "text",
+        "pos": 2,
+        "id": "e0Nbe2WYR0OiHJZTEoUEKg"
+      },
+      "seo_description": {
+        "type": "textarea",
+        "pos": 3,
+        "id": "4MkHuyx6RWiqgKa2wAUtHA"
+      },
+      "og_image": {
+        "type": "asset",
+        "pos": 4,
+        "id": "Si82mRWXSbSnVVXGgQF6Qw"
+      },
+      "breadcrumbs": {
+        "type": "bloks",
+        "pos": 5,
+        "restrict_components": true,
+        "component_whitelist": [
+          "breadcrumb_item"
+        ],
+        "id": "kEs9mQ7sSZ-9zeaTFw3gDg"
+      },
+      "header": {
+        "type": "bloks",
+        "pos": 6,
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "Header"
+        ],
+        "id": "ncem5fiwS0myDwNw4zT5ow"
+      },
+      "sections": {
+        "type": "bloks",
+        "pos": 7,
+        "restrict_components": true,
+        "component_whitelist": [
+          "hero_section",
+          "why_us_section",
+          "expertise_section",
+          "case_studies_section",
+          "business_solutions_section",
+          "services_section",
+          "platforms_expertise_section",
+          "launch_platform_section",
+          "industries_section"
+        ],
+        "id": "na9IkQ3CQL2lwr2fUeY0ZA"
+      },
+      "footer": {
+        "type": "bloks",
+        "pos": 8,
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "site_footer"
+        ],
+        "id": "a1EkX-vcTYeoasw4MMa9zQ"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Ecommerce Service Page",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "expertise_section",
+    "display_name": "Expertise Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.244Z",
+    "updated_at": "2026-06-03T11:25:44.244Z",
+    "id": 183485826027988,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "duyY5aVKSRaVUv8XtNgW4g"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "sqD0SMINQPu524vkeIt4nA"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "ueEWfFHxQ_6Yac0fLpzSlg"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "o9d1lC4rQmKw3G4G_UaeCg"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "XbZXba4nTvaLP0VVW2tkmg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Expertise Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "feature",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:18:08.979Z",
+    "updated_at": "2026-06-02T12:18:08.979Z",
+    "id": 183144812462671,
+    "schema": {
+      "name": {
+        "type": "text",
+        "id": "ELQD0M6FR2GIe-fd8W6yfw"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "feature",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "grid",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:18:08.965Z",
+    "updated_at": "2026-06-02T12:18:08.965Z",
+    "id": 183144812405326,
+    "schema": {
+      "columns": {
+        "type": "bloks",
+        "id": "c6_geFbgTZ6AoWjTKXHjkw"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "grid",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "Header",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:20:03.271Z",
+    "updated_at": "2026-06-03T11:34:39.549Z",
+    "id": 183145280610955,
+    "schema": {
+      "Logo": {
+        "type": "asset",
+        "pos": 0,
+        "id": "dlUM9oEKSbi-mAjLaumjSw"
+      },
+      "items": {
+        "type": "bloks",
+        "pos": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "Nav Item"
+        ],
+        "id": "header-nav-items"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Header",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "hero_section",
+    "display_name": "Hero Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.302Z",
+    "updated_at": "2026-06-12T13:37:30.737Z",
+    "id": 183485826269655,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "LpoRBCNmRAq1VBMl5f4FeQ"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "XVHEpUZZT-iP-2QsN9hd7A"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "mHQVZKTOQqKl4eGWcfZIDg"
+      },
+      "Stats": {
+        "type": "bloks",
+        "pos": 3,
+        "id": "_kP7C6d8QDSZRvJ7u6Poyw",
+        "minimum": 1,
+        "maximum": 4
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 4,
+        "id": "HUPAHLBcRXWuuzeamFb2wA"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 5,
+        "id": "2xOhu7HwTMi8hwE4tQA6TA"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Hero Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "hero_stat_item",
+    "display_name": null,
+    "description": "",
+    "created_at": "2026-06-12T13:29:52.467Z",
+    "updated_at": "2026-06-12T13:31:34.916Z",
+    "id": 186701383549178,
+    "schema": {
+      "value": {
+        "type": "text",
+        "pos": 0,
+        "id": "0cVejuN9RXy8sYicAaNt7A"
+      },
+      "label": {
+        "type": "text",
+        "pos": 1,
+        "id": "9p-XIQdRSt2iCOXVcUcNgw"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "hero_stat_item",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "industries_section",
+    "display_name": "Industries Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.407Z",
+    "updated_at": "2026-06-03T11:25:44.407Z",
+    "id": 183485826695642,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "C-HejsndSl2-B6jdIWdubw"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "BGeKzotJTRKoKDY8WptgWA"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "mre2mNcBRPW42u9SznVWjg"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "1ebJeH6kR5WI8va4LvPIfw"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "5QQmZ04aQbyLrr8Bm-wqhg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Industries Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "landing_page",
+    "display_name": null,
+    "description": "Root content type for landing pages",
+    "created_at": "2026-06-15T11:13:29.611Z",
+    "updated_at": "2026-06-15T11:32:23.429Z",
+    "id": 187729549771851,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "D7jed3wqRbarYCNFbEFMKg"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 1,
+        "id": "psRCUNuFQiepqmWzADW7fQ"
+      },
+      "seo_title": {
+        "type": "text",
+        "pos": 2,
+        "id": "6W4zRiClR62jOlkVjeKDNw"
+      },
+      "seo_description": {
+        "type": "textarea",
+        "pos": 3,
+        "id": "40n285joSfyv1H5gktLEZg"
+      },
+      "og_image": {
+        "type": "asset",
+        "pos": 4,
+        "id": "YPWvThkoTQ2IiNa26M-T0Q"
+      },
+      "breadcrumbs": {
+        "type": "bloks",
+        "pos": 5,
+        "id": "HQfmGWHyToC8OySySlE8iA",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "breadcrumb_item"
+        ],
+        "component_denylist": []
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 6,
+        "id": "g5pS7cPnT261p8SyaXrINw",
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "hero_section",
+          "business_solutions_section",
+          "case_studies_section",
+          "expertise_section"
+        ],
+        "component_denylist": []
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "landing_page",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "launch_platform_section",
+    "display_name": "Launch Platform Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.412Z",
+    "updated_at": "2026-06-03T11:25:44.412Z",
+    "id": 183485826720220,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "1X6Wg_O3SKehQUkzbbRP3Q"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "Xel9tjTATief1lQ2MQFrwQ"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "yme0fivqRN-sIDZLQwjv9Q"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "2cWtknvwSmqaxV09VxN44g"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "_8EZayxoRoq0-7F5k6GjXg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Launch Platform Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "Nav Item",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:50:10.400Z",
+    "updated_at": "2026-06-02T12:52:54.972Z",
+    "id": 183152682611536,
+    "schema": {
+      "label": {
+        "type": "text",
+        "pos": 0,
+        "id": "MHNBD_78TUyBMkm2jaMUAA"
+      },
+      "link": {
+        "type": "multilink",
+        "pos": 1,
+        "id": "OWhApDR_T_2PO0uEQqHgKA"
+      },
+      "dropdown_items": {
+        "type": "bloks",
+        "pos": 2,
+        "id": "Xot2U9A1S96QChMG_NFzPw"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Nav Item",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "page",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:18:08.937Z",
+    "updated_at": "2026-06-02T12:18:08.937Z",
+    "id": 183144812294732,
+    "schema": {
+      "body": {
+        "type": "bloks",
+        "id": "JP8yXY7xRhSWILWackj2ZA"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "page",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "platforms_expertise_section",
+    "display_name": "Platforms Expertise Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.412Z",
+    "updated_at": "2026-06-03T11:25:44.412Z",
+    "id": 183485826720221,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "YAcvlhNoT4uCKGdwE72V_g"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "qT0qFFgbQbm2pWky7kC5rQ"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "78q9hYexSgSNFwkDnx74yQ"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "dTNDwBJbSYaz_TZUihjpjQ"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "3JG_-ES0SGOchUZZPLbyyQ"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Platforms Expertise Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "services_section",
+    "display_name": "Services Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.411Z",
+    "updated_at": "2026-06-03T11:25:44.411Z",
+    "id": 183485826716123,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "P2zLIie-R9WNIayAxhSi4g"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "xEV626Q8TnSYveEhLNC3kw"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "l9CWoFnkSOSb-58NpTLpoQ"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "k-iXPmx0SESBfTR-wMvpxQ"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "OGHSipx7R0qoGy3FuloSPQ"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Services Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "site_footer",
+    "display_name": "Site Footer",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.309Z",
+    "updated_at": "2026-06-03T11:25:44.309Z",
+    "id": 183485826294232,
+    "schema": {
+      "copyright": {
+        "type": "text",
+        "pos": 0,
+        "id": "vi9W4OytScmbVM72bEuV_A"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Site Footer",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "teaser",
+    "display_name": null,
+    "description": null,
+    "created_at": "2026-06-02T12:18:08.953Z",
+    "updated_at": "2026-06-02T12:18:08.953Z",
+    "id": 183144812352077,
+    "schema": {
+      "headline": {
+        "type": "text",
+        "id": "V6rabvpxTK6eLJc3DJrYSg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "teaser",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "why_us_section",
+    "display_name": "Why Us Section",
+    "description": null,
+    "created_at": "2026-06-03T11:25:44.244Z",
+    "updated_at": "2026-06-03T11:25:44.244Z",
+    "id": 183485826032085,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "QJJIfdjWQAKtXZTF8F5z5A"
+      },
+      "headline": {
+        "type": "text",
+        "pos": 1,
+        "id": "F6Oo0YTaRu-fCZvHWXgdxA"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "ChndJo_GStKFWtFG4ipLSw"
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 3,
+        "id": "N3Yi3pCLQqCWco_lnhfjaA"
+      },
+      "body": {
+        "type": "bloks",
+        "pos": 4,
+        "id": "3hxi9oU9TbKIKcBELj7Vvg"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "Why Us Section",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  }
+]
