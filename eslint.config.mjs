@@ -29,6 +29,8 @@ export default tseslint.config(
       "eslint.config.mjs",
       "postcss.config.mjs",
       "scripts/**",
+      ".storyblok/types/**",
+      ".storyblok/logs/**",
       ],
     },
     {
