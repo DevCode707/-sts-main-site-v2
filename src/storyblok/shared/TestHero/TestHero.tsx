@@ -124,7 +124,7 @@ export function TestHero({ blok }: TestHeroProps) {
                   duration={900}
                   className={heroStyles.statsOffset}
                 >
-                  <TestHeroStats stats={stats} />
+                  <TestHeroStats />
                 </TestHeroEnter>
               ) : null}
             </div>

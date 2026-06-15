@@ -1,5 +1,6 @@
 import { fetchStory } from "@/storyblok/api/fetch-story";
 import { storyToMetadata } from "@/storyblok/helpers/storyblok-metadata";
+import { StoryblokBridge } from "@/storyblok/StoryblokBridge";
 import { StoryblokStory } from "@storyblok/react/rsc";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -29,5 +30,10 @@ export default async function StoryblokPage({ params }: PageProps) {
     notFound();
   }
 
-  return <StoryblokStory story={story} />;
+  return (
+    <>
+      <StoryblokBridge storyId={story.id} />
+      <StoryblokStory story={story} />
+    </>
+  );
 }

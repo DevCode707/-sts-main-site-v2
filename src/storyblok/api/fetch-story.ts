@@ -12,6 +12,7 @@ type StoryRelation = {
 };
 
 type StoryWithContent = {
+  id: number;
   name: string;
   content?: {
     body?: (SbBlokData & Record<string, unknown>)[];
