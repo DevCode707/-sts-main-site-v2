@@ -1,3 +1,4 @@
+import { SectionHero } from "@/storyblok/components/SectionHeroStellar";
 import { BannerReference } from "@/storyblok/spaces/defaultStoryblok/components/BannerReference";
 import { BreadcrumbItem } from "@/storyblok/spaces/defaultStoryblok/components/Breadcrumbs";
 import { Button } from "@/storyblok/spaces/defaultStoryblok/components/Button";
@@ -12,12 +13,14 @@ import { TabbedContentSection } from "@/storyblok/spaces/defaultStoryblok/compon
 import { Teaser } from "@/storyblok/spaces/defaultStoryblok/components/Teaser";
 import { SiteFooter } from "@/storyblok/spaces/defaultStoryblok/layout/Footer/Footer";
 import { Header } from "@/storyblok/spaces/defaultStoryblok/layout/Header/Header";
+import LandingPage from "@/storyblok/spaces/defaultStoryblok/page/LandingPage";
 import DefaultStoryblokPage from "@/storyblok/spaces/defaultStoryblok/page/Page";
 import type { SbReactComponentsMap } from "@storyblok/react/rsc";
 
 export const storyblokComponents: SbReactComponentsMap = {
   page: DefaultStoryblokPage,
   "default-page": DefaultStoryblokPage,
+  landing_page: LandingPage,
   "hero-section": HeroSection,
   button: Button,
   "headline-segment": HeadlineSegment,
@@ -32,4 +35,5 @@ export const storyblokComponents: SbReactComponentsMap = {
   teaser: Teaser,
   breadcrumb_item: BreadcrumbItem,
   site_footer: SiteFooter,
+  section_hero_stellar: SectionHero,
 };
