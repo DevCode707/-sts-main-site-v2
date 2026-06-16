@@ -140,102 +140,6 @@
     "metadata": {}
   },
   {
-    "name": "ecommerce_service_page",
-    "display_name": "Ecommerce Service Page",
-    "description": "Landing page shell for Ecommerce Development Services",
-    "created_at": "2026-06-03T11:25:44.513Z",
-    "updated_at": "2026-06-03T11:25:44.513Z",
-    "id": 183485827133918,
-    "schema": {
-      "title": {
-        "type": "text",
-        "pos": 0,
-        "id": "_FZ1_Dy5RKGHGnRKmb1ehA"
-      },
-      "description": {
-        "type": "textarea",
-        "pos": 1,
-        "id": "fwvEhg4rSjif4bIG4l8o2w"
-      },
-      "seo_title": {
-        "type": "text",
-        "pos": 2,
-        "id": "e0Nbe2WYR0OiHJZTEoUEKg"
-      },
-      "seo_description": {
-        "type": "textarea",
-        "pos": 3,
-        "id": "4MkHuyx6RWiqgKa2wAUtHA"
-      },
-      "og_image": {
-        "type": "asset",
-        "pos": 4,
-        "id": "Si82mRWXSbSnVVXGgQF6Qw"
-      },
-      "breadcrumbs": {
-        "type": "bloks",
-        "pos": 5,
-        "restrict_components": true,
-        "component_whitelist": [
-          "breadcrumb_item"
-        ],
-        "id": "kEs9mQ7sSZ-9zeaTFw3gDg"
-      },
-      "header": {
-        "type": "bloks",
-        "pos": 6,
-        "maximum": 1,
-        "restrict_components": true,
-        "component_whitelist": [
-          "Header"
-        ],
-        "id": "ncem5fiwS0myDwNw4zT5ow"
-      },
-      "sections": {
-        "type": "bloks",
-        "pos": 7,
-        "restrict_components": true,
-        "component_whitelist": [
-          "hero_section",
-          "why_us_section",
-          "expertise_section",
-          "case_studies_section",
-          "business_solutions_section",
-          "services_section",
-          "platforms_expertise_section",
-          "launch_platform_section",
-          "industries_section"
-        ],
-        "id": "na9IkQ3CQL2lwr2fUeY0ZA"
-      },
-      "footer": {
-        "type": "bloks",
-        "pos": 8,
-        "maximum": 1,
-        "restrict_components": true,
-        "component_whitelist": [
-          "site_footer"
-        ],
-        "id": "a1EkX-vcTYeoasw4MMa9zQ"
-      }
-    },
-    "image": null,
-    "preview_field": null,
-    "is_root": true,
-    "preview_tmpl": null,
-    "is_nestable": false,
-    "all_presets": [],
-    "preset_id": null,
-    "real_name": "Ecommerce Service Page",
-    "component_group_uuid": null,
-    "color": null,
-    "icon": null,
-    "internal_tags_list": [],
-    "internal_tag_ids": [],
-    "content_type_asset_preview": null,
-    "metadata": {}
-  },
-  {
     "name": "expertise_section",
     "display_name": "Expertise Section",
     "description": null,
@@ -374,6 +278,46 @@
     "all_presets": [],
     "preset_id": null,
     "real_name": "Header",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "hero_collage_image",
+    "display_name": null,
+    "description": "Hero collage image",
+    "created_at": "2026-06-15T13:58:50.063Z",
+    "updated_at": "2026-06-15T14:02:08.139Z",
+    "id": 187770183944039,
+    "schema": {
+      "image": {
+        "type": "asset",
+        "pos": 0,
+        "id": "nX_Grhz0TqWIJJzx5iB9bA"
+      },
+      "alt": {
+        "type": "text",
+        "pos": 1,
+        "id": "W30OEKt6TByP1UIPd10lnw"
+      },
+      "mobile_image": {
+        "type": "asset",
+        "pos": 3,
+        "id": "WjwDvsl8Rra5sFOgN4cDcA"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "hero_collage_image",
     "component_group_uuid": null,
     "color": null,
     "icon": null,
@@ -529,7 +473,7 @@
     "display_name": null,
     "description": "Root content type for landing pages",
     "created_at": "2026-06-15T11:13:29.611Z",
-    "updated_at": "2026-06-15T11:32:23.429Z",
+    "updated_at": "2026-06-15T14:13:33.725Z",
     "id": 187729549771851,
     "schema": {
       "title": {
@@ -578,7 +522,8 @@
           "hero_section",
           "business_solutions_section",
           "case_studies_section",
-          "expertise_section"
+          "expertise_section",
+          "section_hero_stellar"
         ],
         "component_denylist": []
       }
@@ -769,6 +714,102 @@
     "metadata": {}
   },
   {
+    "name": "section_hero_stellar",
+    "display_name": null,
+    "description": "section hero stellar",
+    "created_at": "2026-06-15T13:30:02.573Z",
+    "updated_at": "2026-06-15T14:06:49.234Z",
+    "id": 187763108148828,
+    "schema": {
+      "badge_text": {
+        "type": "text",
+        "pos": 0,
+        "id": "QTTurSDzSoWXtcdETR7lzw"
+      },
+      "title": {
+        "type": "textarea",
+        "pos": 1,
+        "id": "6RTMGBgQS2itbp6htF7UjQ"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 2,
+        "id": "4s3ERh89RYSyOG_3fUbUBw"
+      },
+      "primary_cta_label": {
+        "type": "text",
+        "pos": 3,
+        "id": "5OukDGlWRQu1ku14uAVo1A"
+      },
+      "primary_cta_link": {
+        "type": "multilink",
+        "pos": 4,
+        "id": "RFXheIITS7-t0Fgw0cfGmw"
+      },
+      "primary_cta_avatar": {
+        "type": "asset",
+        "pos": 5,
+        "id": "AXzgL1YyRuSSLM8uXOzDMg"
+      },
+      "primary_cta_online_indicator": {
+        "type": "boolean",
+        "pos": 6,
+        "id": "bDEBPBFNSI-kdgpWyf5tDQ"
+      },
+      "helper_text": {
+        "type": "text",
+        "pos": 7,
+        "id": "gC8hMSZDS96NYowEn5RirQ"
+      },
+      "stats": {
+        "type": "bloks",
+        "pos": 8,
+        "id": "0A1FAml3QkiTUjL-gZdW4w",
+        "minimum": 1,
+        "maximum": 4,
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "hero_stat_item"
+        ],
+        "component_denylist": []
+      },
+      "collage_images": {
+        "type": "bloks",
+        "pos": 9,
+        "id": "J2kZZMcdQEyhiWvduFQSEA",
+        "minimum": 1,
+        "maximum": 3,
+        "restrict_type": "",
+        "restrict_components": true,
+        "component_whitelist": [
+          "hero_collage_image"
+        ],
+        "component_denylist": []
+      },
+      "hidden": {
+        "type": "boolean",
+        "pos": 10,
+        "id": "uh00XYJQRCCB5qJtqyOkqA"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": false,
+    "preview_tmpl": null,
+    "is_nestable": true,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "section_hero_stellar",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
     "name": "services_section",
     "display_name": "Services Section",
     "description": null,
@@ -869,6 +910,102 @@
     "all_presets": [],
     "preset_id": null,
     "real_name": "teaser",
+    "component_group_uuid": null,
+    "color": null,
+    "icon": null,
+    "internal_tags_list": [],
+    "internal_tag_ids": [],
+    "content_type_asset_preview": null,
+    "metadata": {}
+  },
+  {
+    "name": "test-2",
+    "display_name": "TEST-2",
+    "description": "Landing page shell for Ecommerce Development Services",
+    "created_at": "2026-06-03T11:25:44.513Z",
+    "updated_at": "2026-06-15T14:11:47.941Z",
+    "id": 183485827133918,
+    "schema": {
+      "title": {
+        "type": "text",
+        "pos": 0,
+        "id": "_FZ1_Dy5RKGHGnRKmb1ehA"
+      },
+      "description": {
+        "type": "textarea",
+        "pos": 1,
+        "id": "fwvEhg4rSjif4bIG4l8o2w"
+      },
+      "seo_title": {
+        "type": "text",
+        "pos": 2,
+        "id": "e0Nbe2WYR0OiHJZTEoUEKg"
+      },
+      "seo_description": {
+        "type": "textarea",
+        "pos": 3,
+        "id": "4MkHuyx6RWiqgKa2wAUtHA"
+      },
+      "og_image": {
+        "type": "asset",
+        "pos": 4,
+        "id": "Si82mRWXSbSnVVXGgQF6Qw"
+      },
+      "breadcrumbs": {
+        "type": "bloks",
+        "pos": 5,
+        "restrict_components": true,
+        "component_whitelist": [
+          "breadcrumb_item"
+        ],
+        "id": "kEs9mQ7sSZ-9zeaTFw3gDg"
+      },
+      "header": {
+        "type": "bloks",
+        "pos": 6,
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "Header"
+        ],
+        "id": "ncem5fiwS0myDwNw4zT5ow"
+      },
+      "sections": {
+        "type": "bloks",
+        "pos": 7,
+        "restrict_components": true,
+        "component_whitelist": [
+          "hero_section",
+          "why_us_section",
+          "expertise_section",
+          "case_studies_section",
+          "business_solutions_section",
+          "services_section",
+          "platforms_expertise_section",
+          "launch_platform_section",
+          "industries_section"
+        ],
+        "id": "na9IkQ3CQL2lwr2fUeY0ZA"
+      },
+      "footer": {
+        "type": "bloks",
+        "pos": 8,
+        "maximum": 1,
+        "restrict_components": true,
+        "component_whitelist": [
+          "site_footer"
+        ],
+        "id": "a1EkX-vcTYeoasw4MMa9zQ"
+      }
+    },
+    "image": null,
+    "preview_field": null,
+    "is_root": true,
+    "preview_tmpl": null,
+    "is_nestable": false,
+    "all_presets": [],
+    "preset_id": null,
+    "real_name": "TEST-2",
     "component_group_uuid": null,
     "color": null,
     "icon": null,
