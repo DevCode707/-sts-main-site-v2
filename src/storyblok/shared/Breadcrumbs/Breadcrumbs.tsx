@@ -1,5 +1,3 @@
-import { cn } from "@/libs/cn";
-import { figtree } from "@/libs/fonts";
 import type { BlokProps } from "@/storyblok/types/types";
 import { storyblokEditable, type SbBlokData } from "@storyblok/react/rsc";
 import Link from "next/link";
@@ -26,10 +24,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   }
 
   return (
-    <nav
-      aria-label="Breadcrumb"
-      className={cn(figtree.className, breadcrumbsStyles.nav)}
-    >
+    <nav aria-label="Breadcrumb" className={breadcrumbsStyles.nav}>
       <ol className={breadcrumbsStyles.list}>
         {visibleItems.map((item, index) => {
           const label = item.label!.trim();
@@ -39,9 +34,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
 
           return (
             <li key={item._uid} className={breadcrumbsStyles.item}>
-              {index > 0 ? (
-                <span className={breadcrumbsStyles.separator}>/</span>
-              ) : null}
+              {index > 0 ? <span aria-hidden>/</span> : null}
               {isCurrent || href === undefined || href.length === 0 ? (
                 <span
                   className={
