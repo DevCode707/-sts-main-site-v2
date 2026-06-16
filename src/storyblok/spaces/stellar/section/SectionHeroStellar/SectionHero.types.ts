@@ -1,6 +1,6 @@
 import { getStoryblokAssetUrl } from "@/storyblok/helpers/storyblok-image";
-import type { StoryblokLink } from "@/storyblok/spaces/defaultStoryblok/types/types";
-import { getHref } from "@/storyblok/spaces/defaultStoryblok/utils";
+import type { StoryblokLink } from "@/storyblok/spaces/stellar/types/types";
+import { getHref } from "@/storyblok/spaces/stellar/utils/link";
 import type { StoryblokAsset } from "@/storyblok/types/types";
 import type { SbBlokData } from "@storyblok/react/rsc";
 

@@ -1,5 +1,5 @@
 export const heroStyles = {
-  copy: "flex w-full max-w-[540px] shrink-0 flex-col gap-0 max-md:max-w-full md:min-w-0 md:flex-1 md:pt-[88px]",
+  copy: "flex w-full max-w-[540px] shrink-0 flex-col gap-0 max-md:max-w-full md:min-w-0 md:flex-1",
   copyBody: "flex flex-col flex-1 gap-4",
   badge:
     "flex items-center sm:gap-2 gap-[2px] self-center max-md:self-center md:self-start",

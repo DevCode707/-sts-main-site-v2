@@ -1,5 +1,6 @@
+import { BreadcrumbItem } from "@/storyblok/shared/Breadcrumbs";
+import { Header } from "@/storyblok/shared/Header";
 import { BannerReference } from "@/storyblok/spaces/defaultStoryblok/components/BannerReference";
-import { BreadcrumbItem } from "@/storyblok/spaces/defaultStoryblok/components/Breadcrumbs";
 import { Button } from "@/storyblok/spaces/defaultStoryblok/components/Button";
 import { EcommerceServicePage } from "@/storyblok/spaces/defaultStoryblok/components/EcommerceServicePage";
 import { FeaturedArticlesSection } from "@/storyblok/spaces/defaultStoryblok/components/FeaturedArticlesSection";
@@ -11,15 +12,12 @@ import { NewsletterFormSection } from "@/storyblok/spaces/defaultStoryblok/compo
 import { TabbedContentSection } from "@/storyblok/spaces/defaultStoryblok/components/TabbedContentSection";
 import { Teaser } from "@/storyblok/spaces/defaultStoryblok/components/Teaser";
 import { SiteFooter } from "@/storyblok/spaces/defaultStoryblok/layout/Footer/Footer";
-import { Header } from "@/storyblok/spaces/defaultStoryblok/layout/Header/Header";
-import LandingPage from "@/storyblok/spaces/defaultStoryblok/page/LandingPage";
 import DefaultStoryblokPage from "@/storyblok/spaces/defaultStoryblok/page/Page";
 import type { SbReactComponentsMap } from "@storyblok/react/rsc";
 
 export const defaultStoryblokComponents: SbReactComponentsMap = {
   page: DefaultStoryblokPage,
   "default-page": DefaultStoryblokPage,
-  landing_page: LandingPage,
   "hero-section": HeroSection,
   button: Button,
   "headline-segment": HeadlineSegment,

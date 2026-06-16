@@ -1,0 +1,1 @@
+export { stellarStoryblokComponents } from "./registry";

@@ -1,39 +1,16 @@
-import { SectionHero } from "@/storyblok/components/SectionHeroStellar";
-import { BannerReference } from "@/storyblok/spaces/defaultStoryblok/components/BannerReference";
-import { BreadcrumbItem } from "@/storyblok/spaces/defaultStoryblok/components/Breadcrumbs";
-import { Button } from "@/storyblok/spaces/defaultStoryblok/components/Button";
-import { EcommerceServicePage } from "@/storyblok/spaces/defaultStoryblok/components/EcommerceServicePage";
-import { FeaturedArticlesSection } from "@/storyblok/spaces/defaultStoryblok/components/FeaturedArticlesSection";
-import { GridSection } from "@/storyblok/spaces/defaultStoryblok/components/GridSection";
-import { HeadlineSegment } from "@/storyblok/spaces/defaultStoryblok/components/HeadlineSegment";
-import { HeroSection } from "@/storyblok/spaces/defaultStoryblok/components/HeroSection";
-import { ImageTextSection } from "@/storyblok/spaces/defaultStoryblok/components/ImageTextSection";
-import { NewsletterFormSection } from "@/storyblok/spaces/defaultStoryblok/components/NewsletterFormSection";
-import { TabbedContentSection } from "@/storyblok/spaces/defaultStoryblok/components/TabbedContentSection";
-import { Teaser } from "@/storyblok/spaces/defaultStoryblok/components/Teaser";
+import { BreadcrumbItem } from "@/storyblok/shared/Breadcrumbs";
+import { Header } from "@/storyblok/shared/Header";
 import { SiteFooter } from "@/storyblok/spaces/defaultStoryblok/layout/Footer/Footer";
-import { Header } from "@/storyblok/spaces/defaultStoryblok/layout/Header/Header";
-import LandingPage from "@/storyblok/spaces/defaultStoryblok/page/LandingPage";
-import DefaultStoryblokPage from "@/storyblok/spaces/defaultStoryblok/page/Page";
+import { stellarStoryblokComponents } from "@/storyblok/spaces/stellar/registry";
 import type { SbReactComponentsMap } from "@storyblok/react/rsc";
 
-export const storyblokComponents: SbReactComponentsMap = {
-  page: DefaultStoryblokPage,
-  "default-page": DefaultStoryblokPage,
-  landing_page: LandingPage,
-  "hero-section": HeroSection,
-  button: Button,
-  "headline-segment": HeadlineSegment,
-  "tabbed-content-section": TabbedContentSection,
-  "grid-section": GridSection,
-  "image-text-section": ImageTextSection,
-  "newsletter-form-section": NewsletterFormSection,
-  "featured-articles-section": FeaturedArticlesSection,
-  "banner-reference": BannerReference,
-  ecommerce_service_page: EcommerceServicePage,
+const sharedStoryblokComponents: SbReactComponentsMap = {
   Header,
-  teaser: Teaser,
   breadcrumb_item: BreadcrumbItem,
   site_footer: SiteFooter,
-  section_hero_stellar: SectionHero,
+};
+
+export const storyblokComponents: SbReactComponentsMap = {
+  ...sharedStoryblokComponents,
+  ...stellarStoryblokComponents,
 };

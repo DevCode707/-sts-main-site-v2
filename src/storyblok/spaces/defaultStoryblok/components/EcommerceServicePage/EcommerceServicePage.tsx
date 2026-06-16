@@ -6,6 +6,7 @@ import {
   getStorySections,
   hasPageIntro,
 } from "@/storyblok/helpers/storyblok-content";
+import { Breadcrumbs } from "@/storyblok/shared/Breadcrumbs";
 import { SiteFooterFallback } from "@/storyblok/spaces/defaultStoryblok/layout/Footer/Footer";
 import { SiteShell } from "@/storyblok/spaces/defaultStoryblok/layout/SiteShell/SiteShell";
 import { TestSections } from "@/storyblok/spaces/defaultStoryblok/sections/TestSections";
@@ -14,7 +15,6 @@ import {
   StoryblokServerComponent,
 } from "@storyblok/react/rsc";
 
-import { Breadcrumbs } from "../Breadcrumbs";
 import { FALLBACK_HEADER_BLOK } from "./EcommerceServicePage.const";
 import { ecommerceServicePageStyles } from "./EcommerceServicePage.styles";
 

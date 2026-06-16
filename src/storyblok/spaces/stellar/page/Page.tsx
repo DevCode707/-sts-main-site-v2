@@ -2,24 +2,20 @@ import {
   getPageBreadcrumbItems,
   splitStoryblokPageBody,
 } from "@/storyblok/helpers/storyblok-page-body";
+import { Breadcrumbs } from "@/storyblok/shared/Breadcrumbs";
+import type { BlokProps } from "@/storyblok/types/types";
 import {
   StoryblokServerComponent,
   storyblokEditable,
   type SbBlokData,
 } from "@storyblok/react/rsc";
 
-import { Breadcrumbs } from "../components/Breadcrumbs";
-
-type StoryblokPageLayoutBlok = SbBlokData & {
+type StellarPageBlok = SbBlokData & {
   body?: SbBlokData[];
   breadcrumbs?: SbBlokData[];
 };
 
-type StoryblokPageLayoutProps = {
-  blok: StoryblokPageLayoutBlok;
-};
-
-export function StoryblokPageLayout({ blok }: StoryblokPageLayoutProps) {
+export default function StellarPage({ blok }: BlokProps<StellarPageBlok>) {
   const breadcrumbItems = getPageBreadcrumbItems(blok);
   const { headerBlocks, footerBlocks, contentBlocks } = splitStoryblokPageBody(
     blok.body,
