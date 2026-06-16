@@ -3,11 +3,11 @@
 import type { BreadcrumbItem } from './BreadcrumbItem.d.ts';
 import type { BusinessSolutionsSection } from './BusinessSolutionsSection.d.ts';
 import type { CaseStudiesSection } from './CaseStudiesSection.d.ts';
-import type { EcommerceServicePage } from './EcommerceServicePage.d.ts';
 import type { ExpertiseSection } from './ExpertiseSection.d.ts';
 import type { Feature } from './Feature.d.ts';
 import type { Grid } from './Grid.d.ts';
 import type { Header } from './Header.d.ts';
+import type { HeroCollageImage } from './HeroCollageImage.d.ts';
 import type { HeroSection } from './HeroSection.d.ts';
 import type { HeroStatItem } from './HeroStatItem.d.ts';
 import type { IndustriesSection } from './IndustriesSection.d.ts';
@@ -15,9 +15,11 @@ import type { LandingPage } from './LandingPage.d.ts';
 import type { LaunchPlatformSection } from './LaunchPlatformSection.d.ts';
 import type { NavItem } from './NavItem.d.ts';
 import type { Page } from './Page.d.ts';
+import type { SectionHeroStellar } from './SectionHeroStellar.d.ts';
 import type { ServicesSection } from './ServicesSection.d.ts';
 import type { SiteFooter } from './SiteFooter.d.ts';
 import type { Teaser } from './Teaser.d.ts';
+import type { Test2 } from './Test2.d.ts';
 import type { WhyUsSection } from './WhyUsSection.d.ts';
 export interface PlatformsExpertiseSection {
   title?: string;
@@ -28,11 +30,11 @@ export interface PlatformsExpertiseSection {
     | BreadcrumbItem
     | BusinessSolutionsSection
     | CaseStudiesSection
-    | EcommerceServicePage
     | ExpertiseSection
     | Feature
     | Grid
     | Header
+    | HeroCollageImage
     | HeroSection
     | HeroStatItem
     | IndustriesSection
@@ -41,9 +43,11 @@ export interface PlatformsExpertiseSection {
     | NavItem
     | Page
     | PlatformsExpertiseSection
+    | SectionHeroStellar
     | ServicesSection
     | SiteFooter
     | Teaser
+    | Test2
     | WhyUsSection
   )[];
   component: "platforms_expertise_section";

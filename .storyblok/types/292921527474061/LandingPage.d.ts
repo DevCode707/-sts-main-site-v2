@@ -6,6 +6,7 @@ import type { BusinessSolutionsSection } from './BusinessSolutionsSection.d.ts';
 import type { CaseStudiesSection } from './CaseStudiesSection.d.ts';
 import type { ExpertiseSection } from './ExpertiseSection.d.ts';
 import type { HeroSection } from './HeroSection.d.ts';
+import type { SectionHeroStellar } from './SectionHeroStellar.d.ts';
 export interface LandingPage {
   title?: string;
   description?: string;
@@ -13,7 +14,7 @@ export interface LandingPage {
   seo_description?: string;
   og_image?: StoryblokAsset;
   breadcrumbs?: BreadcrumbItem[];
-  body?: (HeroSection | BusinessSolutionsSection | CaseStudiesSection | ExpertiseSection)[];
+  body?: (HeroSection | BusinessSolutionsSection | CaseStudiesSection | ExpertiseSection | SectionHeroStellar)[];
   component: "landing_page";
   _uid: string;
 }
